@@ -78,7 +78,7 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('running server.');
+    res.send('Running Genius Server.');
 });
 
 app.listen(port, () => {
